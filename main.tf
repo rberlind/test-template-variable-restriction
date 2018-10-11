@@ -6,7 +6,7 @@ variable "tshirt" {
 module "my_web" {
   source  = "./modules/opcx"
   RITM = "Terraform_Unique_ID_42"
-  tshirt = "small"
+  tshirt = "${var.tshirt}"
   repo = "apachedemo"
 }
 
