@@ -1,3 +1,8 @@
+variable "tshirt" {
+  description = "tshirt size"
+  default = "small"
+}
+
 module "my_web" {
   source  = "./modules/opcx"
   RITM = "Terraform_Unique_ID_42"
